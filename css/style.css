@@ -87,7 +87,7 @@ aside button span {
 
 
 #playlists  {
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 #playlists h3 {
@@ -124,6 +124,9 @@ aside button span {
     gap: 24px;
 
     list-style-type: none;
+
+    overflow-y: auto;
+    max-height: calc(100% - 87px);
 }
 
 
